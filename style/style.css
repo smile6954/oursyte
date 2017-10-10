@@ -1,0 +1,53 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+}
+.container{
+	max-width: 1320px;
+	margin: 0 auto;
+	
+}
+.header{
+	border:1px solid red;
+	height: 1030px;
+	width: 100%;
+	background: url('../img/back.png') no-repeat center top/cover;
+}
+li{
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:0px 20px;
+}
+.item{
+	margin: 0px 10px;
+}
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	margin: 400px 0px 0px 0px;
+	text-align: center;
+}
+.container p{
+	color: white;
+	text-align: center;
+	font-size:30px;
+}
