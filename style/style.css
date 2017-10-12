@@ -1,53 +1,239 @@
-body, html{
+body, html {
 	margin: 0;
 	padding: 0;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
-
+	color: white;
 }
-.container{
+.container {
 	max-width: 1320px;
 	margin: 0 auto;
 	
 }
-.header{
-	border:1px solid red;
+.header {
+	
 	height: 1030px;
 	width: 100%;
 	background: url('../img/back.png') no-repeat center top/cover;
+	background-color: #3C7A9F;
 }
-li{
-	text-transform: uppercase;
-	color: white;
-	text-decoration: none;
+li {
 	display: inline-block;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
 }
-ul{
+li a {
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+ul {
 	margin: 0;
 	padding: 0;
 }
-.navbar{
+.logo {
+	background-color: transparent;
+}
+.navbar {
 	margin-top: 35px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding:0px 20px;
+	padding: 0px 20px;
 }
-.item{
+.item {
+
 	margin: 0px 10px;
 }
-h1{
+.header .container h1 {
 	font-size: 50px;
 	text-transform: uppercase;
 	color: white;
-	margin: 400px 0px 0px 0px;
+	margin: 340px 0px 0px 0px;
 	text-align: center;
 }
 .container p{
 	color: white;
 	text-align: center;
 	font-size:30px;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.btn{
+	width: 194px;
+	height: 53px;
+	margin: 15px;
+	border:1px solid #23C892;
+	border-radius:30px;
+	background: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+.btn:hover{
+	background: #23C892;
+}
+.item:active{
+	border-bottom: 5px solid #23C892;
+}
+.bg {
+	background-color: #3C7A9F;
+	background: url('../img/bg.jpg') no-repeat center top/cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.gallery{
+	width: 100%;
+	max-height: 800px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 80px;
+}
+.gallery_item{
+	width: calc(30%);
+	min-width: 200px;
+	min-height: 200px;
+	background: #D1DBE6;
+	
+
+	margin: 10px;
+}
+.gallery_name{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 40px;
+	
+}
+.gallery .btn{
+	color:black;
+	width: 150px;
+	color: white;
+}
+.gallery .btn:hover{
+	color: white;
+}
+.about p{
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	color:#475A68;
+	padding-bottom: 80px;
+}
+.advantage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.advantage li{
+	display: block;
+	margin: 10px;
+	font-size: 22px;
+	font-weight: normal;
+
+
+}
+.advantage ul{
+	max-width: 460px;
+	min-width: 430px;
+	margin-top: 50px;
+}
+.advantage img{
+	padding-left:10px;
+}
+ .advantage_checked:before {
+ 	content: url('../img/check.png');
+ 	margin-right: 15px;
+ 	padding-top: 3px;
+}
+
+.map {
+	width: 1200px;
+	height: 415px;
+	margin: 0 auto;
+	
+}
+
+
+.footer_bg {
+	background: url('../img/back.png') no-repeat center top/cover;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px auto;
+	width: 900px;
+	padding: 75px 0px;
+	
+}
+.social {
+	display: flex;
+	justify-content: space-between;
+	width: 245px;
+	font-size: 0px;
+}
+.social__btn {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: #e1e1e1;
+}
+.social__btn-vk {
+	background-image: url(../img/vk1.png);
+	background-position: top left;
+	background-repeat: no-repeat;	
+}
+.social__btn-vk:hover {
+	background-image: url(../img/vk1.png);
+	background-position: center left;
+}
+.social__btn-vk:active {
+	background-image: url(../img/vk1.png);
+	background-position: bottom left;
+}
+
+.social__btn-fb {
+	background-image: url(../img/vk1.png) ;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.social__btn-fb:hover {
+	background-image: url(../img/vk1.png);
+	background-position: center;
+}
+.social__btn-fb:active {
+	background-image: url(../img/vk1.png);
+	background-position: bottom center;
+}
+.social__btn-tw {
+	background-image: url(../img/vk1.png) ;
+	background-repeat: no-repeat;
+	background-position: top right;	
+}
+.social__btn-tw:hover {
+	background-image: url(../img/vk1.png) ;
+	background-repeat: no-repeat;
+	background-position: center right;	
+}
+.social__btn-tw:active {
+	background-image: url(../img/vk1.png) ;
+	background-repeat: no-repeat;
+	background-position: bottom right;	
+}
+.footer__slogan{
+	font-size: 36px;
+	color: white;
+}
+.footer__sale {
+	color: white; 
 }
