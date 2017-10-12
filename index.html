@@ -3,44 +3,144 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
 	<title>Document</title>
 </head>
 <body>
 	<header class="header">
 		
 			<div class="navbar container">
-				<img src="" alt="Logo" class="logo">
-				<ul class="navbar_items">
-					<li class="item">Портфолио</li>
-					<li class="item">о нас</li>
-					<li class="item">цены</li>
-					<li class="item">преимущества</li>
+				<img class="logo" src="../img/logo.png" alt="Logo" class="logo">
+				<ul class="navbar_items animated bounceInLeft">
+					<li class="item"><a href="#">главная</a></li>s
+					<li class="item"><a href="#">Портфолио</a></li>s
+					<li class="item"><a href="#">о нас</a></li>
+					<li class="item"><a href="#">цены</a></li>
+					<li class="item"><a href="#">преимущества</a></li>
+					<li class="item"><a href="#">контакты</a></li>
 				</ul>
 			</div>
 			<div class="container">
-				<h1>choose your impressive landing page</h1>
-				<p>for business and media</p>
+				<h1 class="animated bounceInDown">Выбери свой  landing page</h1>
+				<p class="animated bounceInUp">Для бизнеса и развлечений</p>
+			</div>
+			<div class="buttons container">
+				<input type="button" class="btn animated bounceInDown" value="оставить заявку">
+				<input type="button" class="btn animated bounceInDown" value="наши работы">
 			</div>
 	</header>
+	<article class="bg">
+		<H1 class="gallery_name container">Наши работы</H1>
+		<section class="gallery container">
+
+					<div class="gallery_item"><img src="img/avenue.jpg" width="100%" height="250"></div>
+					<div class="gallery_item"><img src="img/aviator.jpg" width="100%" height="250"></div>
+					<div class="gallery_item"><img src="img/dovetail.jpg" width="100%" height="250"></div>
+					<div class="gallery_item"><img src="img/forte.jpg" width="100%" height="250"></div>
+					<div class="gallery_item"><img src="img/modern.jpg" width="100%" height="250"></div>
+					<div class="gallery_item"><img src="img/sunset.jpg" width="100%" height="250"></div>
+
+					<input type="button" class="btn" value="все работы">
+		</section>
+	</article>
+	<section class="about">
+		<h1 class="container gallery_name">О нас</h1>
+		<p class="container">Web студия «XXX» — это команда  с большим  опытом работы в сфере веб–разработки, что позволяет назвать себя профессионалами в интернет индустрии. Наша работа  - это создание  сайтов любой сложности, которые являются эффективными маркетинговыми инструментами для наших клиентов.</p>
+		<p class="container">
+			Мы знаем, как воплотить ваши идеи в реальность
+			Успех нашей деятельности заключается в четком видении и понимании всех пожеланий заказчика — мы знаем, как воплотить ваши идеи в реальность, и сделать проект максимально удобным и эффективным. Высокий уровень мастерства наших сотрудников помогает в том, чтобы каждый разработанный нами проект стал полноценным инструментом для решения поставленных задач. Выполнив начальные работы по запуску проекта, мы готовы взять на себя весь комплекс мер по обеспечению последующей эффективной и бесперебойной работы вашего ресурса. Мы предлагаем услуги по поддержке, продвижению и разработке сайтов.
+
+			Мы открыты для сотрудничества с частными компаниями и государственными учреждениями, организациями малого и среднего бизнеса — со всеми, кто заинтересован в разработке сайтов, кому необходима оперативная техническая поддержка ресурса и его продвижение в поисковых системах. Мы практикуем индивидуальный подход к клиенту, и всегда оправдываем оказанное нам доверие.
+		</p>
+	</section>
 	
-	<section>
-		
-	</section>
+	<div class="bg">
+	<section class="container">
+		<h1 class="gallery_name wow animated bounceInLeft container">Преимущества</h1>
+		<div class="advantage">
+			<ul class="wow animated bounceInLeft">
+				<li>Продуманная структура </li>
+			</ul>
+			<img class="wow animated bounceInLeft" src="img/1.png" alt="">
+			<ul class="wow animated bounceInRight">
+				<li class="advantage_checked">Сайт с продуманной структурой удобен для пользователей, потому что на нем легко ориентироваться. 
+				</li>
+				<li class="advantage_checked">Сайт легко развивать, так как в хорошо построенную  структуру удобно добавлять новые элементы.
+				</li>
 
-	<section>
-		
-	</section>
+			</ul>
+		</div>
+		<div class="advantage">
+			<ul class="wow animated bounceInLeft">
+				<li>Экомия вашего  времени.</li>
+			</ul>
+			<img class="wow animated bounceInLeft" src="img/2.png" alt="">
+			<ul class="wow animated bounceInRight">
+				<li class="advantage_checked">Заказав сайт в нашей студии , вы получите полноценный сайт в кратчайшие сроки , который сохраняет свою функциональность в всех современных браузерах и на различных устройствах.
+				</li>
+				<li class="advantage_checked">После сдачи сайта мы проводим обучение по его администрированию , поддержке и обеспечению безопастности.
+				</li>
 
-	<section>
-		
-	</section>
+			</ul>
+		</div>
+		<div class="advantage">
+			<ul class="wow animated bounceInLeft">
+				<li>Не платите лишних денег</li>
+			</ul>
+			<img class="wow animated bounceInLeft" src="img/3.png" alt="">
+			<ul class="wow animated bounceInRight">
+				<li class="advantage_checked">
+					На компания постоянно проводит множество акции , что позволяет подобрать нужную вам.
+				</li>
+				<li class="advantage_checked">
+					Мы разрабатываем сайты , которые действительно работают. Наши проекы помогли уже многим компаниям развиться и  добиться успеха.
+				</li>
 
-	<section>
-		
-	</section>
+			</ul>
+		</div>
 
-	<footer>
-		
-	</footer>
+	</section>
+	</div>
+
+
+	<div class="footer_bg">
+
+	      
+	      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651652!2d30.320894616382787!3d59.93879418187613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1506264020150" width="100%" height="415" frameborder="0" style="border:0" allowfullscreen></iframe> 
+	    
+	
+	
+	<footer class="footer">
+
+	  	<div class="footer__social social">  		
+	  		<a href="#" class="social__btn-vk social__btn">Вконтакте</a>			
+	  		<a href="#" class="social__btn-fb social__btn">Фейсбук</a>	
+	  		<a href="#" class="social__btn-tw social__btn">Инстакрам</a>			
+	  	</div>	
+	  	<div class="footer__share">
+	  		<b class="footer__slogan">Давайте дружить, это выгодно!</b>
+	  		<p class="footer__sale">Скидка 10% для друзей из социальных сетей.</p>
+	  	</div>  	
+
+	</footer> 
+	</div> 
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	
+	<script src="js/wow.min.js">
+	</script>
+	
+	<script>
+    new WOW().init();
+	</script>
+	
+	<script src='js/script.js'>
+	</script>
+
 </body>
 </html>
